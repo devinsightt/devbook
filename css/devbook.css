@@ -1,0 +1,309 @@
+	*
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body
+	{
+		background-color: #ff6347;
+	}
+
+	header
+	{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: red;
+		padding: 20px;
+		position: relative;
+	}
+
+
+	header .logo img
+	{
+		width:80%;
+		height: 80%;
+		float: left;
+
+	}
+
+	header .login
+	{
+		/*position: absolute;
+		right:100px;*/
+		width: 50%;
+		margin-right: 140px;
+		height: auto;
+		float: right;
+	}
+
+
+	header .login form
+	{
+		display: flex;
+		/*justify-content: space-between;*/
+		padding-left: 15%;
+		color: white;
+		font-size: 20px;
+	}
+
+	header .login form .name
+	{
+		margin-right: 50px;
+
+	}
+
+	header .login form .name .checkbox
+	{
+		color: #ff6347;
+	}
+
+	header .login form .name input[type=checkbox]:checked+label
+	{
+		color: white;
+
+	}
+
+	header .login form input
+	{
+		padding: 5px;
+	}
+
+	header .login form .pass
+	{
+		margin-right: 50px;
+
+	}
+
+	header .login form .pass a
+	{
+		text-decoration: none;
+		color: #ff6347;
+
+	}
+
+
+	header .login form .pass a:hover
+	{
+		color: white;
+		font-size: 1.3rem;
+	}
+
+	header .sub
+	{
+		position: absolute;
+		top: 30px;
+		right:30px;
+		/*padding-top: 14px;*/
+	}
+
+
+
+	header .sub button
+	{
+		padding: 5px;
+		background-color: #ff6347;
+		border: 2px solid white;
+	}
+
+	header .sub button a
+	{
+		font-size: 1.4rem;
+		font-weight: 700;	
+		text-decoration: none;
+		color: white;
+	}
+
+	header .sub button a:hover
+	{
+		font-size: 1.6rem;
+		transform: all;
+		/*color: red;*/
+		/*background-color: white;*/
+	}
+
+	article
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		margin-top: 80px;
+		justify-content: space-between;
+		/*align-items: center;*/
+
+	}
+
+	main
+	{
+		width: 50%;
+		height: auto;
+		padding-left: 70px;
+		float: left;
+		/*border: 2px solid blue;*/
+	}
+
+
+	main .leftheading h1
+	{
+		color: white;
+		font-size: 2.1rem;
+	}
+
+
+	main .leftimg img
+	{
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+		margin-top: 5%;
+		display: block;
+		align-items: center;
+	}
+
+
+	aside
+	{
+		float: right;
+		padding-left: 100px;
+		padding-right: 80px;
+	    color: white;
+	
+	    /*border: 2px 07lid blue;*/
+	}
+
+	aside .rightheading h1
+	{
+		font-size: 2.4rem;
+	}
+
+	aside .rightheading p
+	{
+		font-size: 20px;
+	}
+
+
+	aside .signupform form .naamkachakkar
+	{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	aside .signupform form .naamkachakkar .half1  input
+	{
+		
+		width: 105%;
+		margin-left: 15px;
+		font-size: large;
+		border-style: none;
+		padding: 10px;
+
+	}
+
+	aside .signupform form .naamkachakkar .half2 input
+	{
+		width: 105%;
+		font-size: large;
+		border-style: none;
+		padding: 10px;
+	}
+
+	aside .signupform form .full
+	{
+		width: 90%;
+		margin-bottom: 15px;
+	} 
+
+
+    aside .signupform form .full 
+	{
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		margin-left: 15px;
+		font-size: large;
+	}
+
+
+	aside .signupform form .fullb1
+	{
+		width: 28.8%;
+		margin-left: 15px;
+	}
+
+
+	aside .signupform form .fullb2
+	{
+		width: 28.8%;
+		margin-left: 5px;
+		margin-right: 10px;
+	} 
+
+	aside .signupform form .gender
+	{
+		width: 50%;
+		font-size: 1.5rem;
+		margin-top: 15px;
+	}
+
+aside .signupform form label
+{
+	font-size: 1.4rem;
+}
+
+aside .signupform form p
+{
+	font-size: 1.4rem;
+	text-decoration: none;
+}
+
+aside .signupform form p a
+{
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: cyan;	
+}
+
+	 
+aside .signupform form p a:hover
+{
+	font-size: 1.6rem;
+	color: blue;	
+}
+
+aside .fullsign 
+{
+	width: 60%;
+	font-size: 2rem;
+	background-color: red;
+	margin-left: 15%;
+	padding: 10px;
+	align-content:  center;
+}	
+
+
+aside .fullsign a
+{
+	text-decoration: none;
+	color: white;
+} 
+
+aside .fullsign a:hover
+{
+	font-size: 2.2rem;
+}
+
+footer
+{
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: red;
+	font-size: 1.5rem;
+}
+
+
